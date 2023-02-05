@@ -18,4 +18,4 @@ This library helps us in manipulating the output of any C++ program.
 * `setprecision(int n)`: It will change the precision of any floating-point number.
 
 ## References
-* [iomanip laibrary](https://www.educba.com/c-plus-plus-iomanip/)
+* [iomanip library](https://www.educba.com/c-plus-plus-iomanip/)
