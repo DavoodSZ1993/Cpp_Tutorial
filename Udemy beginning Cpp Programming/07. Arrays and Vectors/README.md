@@ -2,4 +2,5 @@
 
 Vectors are sequence containers representing arrays that can change in size.
 
-### Some useful functionalities of vector library.
+### Some useful functionalities of vector library:
+* How to declare vectors: `vector <>`
