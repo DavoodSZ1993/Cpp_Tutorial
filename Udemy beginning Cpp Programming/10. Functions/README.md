@@ -10,6 +10,9 @@
 * `int rand()`: Returns a pseudo-random integer value between `0` and `RAND_MAX` (`0` and `RAND_MAX` included).
 * `void srand(unsigned seed)`: Seeds the pseudo-random number generator used by `rand()` with the value seed.
 
+## C++ ctime Library
+* `time_t time(time_t *arg)`: Returns the current calender time encoded as `time_t` object, and also stores it in the object pointed to by `arg`, unless `arg` is a null pointer (`nullptr`).
+
 
 
 
