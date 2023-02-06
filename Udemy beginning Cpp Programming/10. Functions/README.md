@@ -13,6 +13,11 @@
 ## C++ ctime Library
 * `time_t time(time_t *arg)`: Returns the current calender time encoded as `time_t` object, and also stores it in the object pointed to by `arg`, unless `arg` is a null pointer (`nullptr`).
 
+## Function Prototypes in C++
+* In C++ compiler must know the function details before it is called. This can be challenging and troublesome in programs with large number of functions.
+* However, this problem can be easily solved by function prototying. 
+* A function prototype is a **declaration** of the function that tells the program about the type of value returned by the function and the number and type of arguments.
+
 
 
 
