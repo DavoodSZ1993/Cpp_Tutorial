@@ -19,7 +19,8 @@
 * A function prototype is a **declaration** of the function that tells the program about the type of value returned by the function and the number and type of arguments.
 
 ## Arrays in C++ Functions
-
+We can pass an array to a function by providing square brackets in the formal parameter description as follows:
+`void print_array(int numbers []);`
 
 
 
