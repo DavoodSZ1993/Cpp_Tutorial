@@ -23,6 +23,10 @@ We can pass an array to a function by providing square brackets in the formal pa
 
 `void print_array(int numbers []);`
 
+The array elements are not copied. Since the array name evaluates to the location of the array in memory, this address is what is copied. So the function has no idea how many elements are in the array since all it knows is the location of the first element (the name of the array). We can solve this problem by including the size of the array as the function input argument.
+
+`void print_array(int numbers [], size_t size)`
+
 
 
 
