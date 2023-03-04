@@ -18,6 +18,8 @@
 * However, this problem can be easily solved by function prototying. 
 * A function prototype is a **declaration** of the function that tells the program about the type of value returned by the function and the number and type of arguments.
 
+## Arrays in C++ Functions
+
 
 
 
