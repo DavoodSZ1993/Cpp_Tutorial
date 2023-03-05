@@ -43,6 +43,14 @@ C++ uses static or lexical scoping.
 * Function local variables are only active while the function is executing and local variables are not preserved between function calls.
 * With nested blocks, inner blocks can see out but outer blocks cannot see in.
 
+### Static Local Variable
+* Declared with static qualifier
+
+`static int value {10};`
+
+* Value is preserved between function calls.
+* Only initialized the first time the function is called.
+
 
 
 
