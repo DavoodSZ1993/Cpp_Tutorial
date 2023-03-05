@@ -34,6 +34,12 @@ We can use `&` sign to pass by reference in C++ functions.
 
 `void scale_number(int &num)`
 
+## Scope Rules in C++
+C++ uses static or lexical scoping.
+
+### Local or Block Scope
+* Identifiers declared in a block {}.
+
 
 
 
