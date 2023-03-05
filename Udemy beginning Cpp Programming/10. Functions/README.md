@@ -39,6 +39,9 @@ C++ uses static or lexical scoping.
 
 ### Local or Block Scope
 * Identifiers declared in a block {}.
+* Function parameters have block scope, only visible within the block {} where declared.
+* Function local variables are only active while the function is executing and local variables are not preserved between function calls.
+* With nested blocks, inner blocks can see out but outer blocks cannot see in.
 
 
 
