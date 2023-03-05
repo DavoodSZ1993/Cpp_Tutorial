@@ -27,6 +27,13 @@ The array elements are not copied. Since the array name evaluates to the locatio
 
 `void print_array(int numbers [], size_t size)`
 
+## Pass by Reference in C++ FUnctions
+We can use reference parameters to tell the compiler to pass in a reference to the actual parameter. The formal parameter will now be an alias for the actual parameter.
+
+We can use `&` sign to pass by reference in C++ functions.
+
+`void scale_number(int &num)`
+
 
 
 
