@@ -51,6 +51,11 @@ C++ uses static or lexical scoping.
 * Value is preserved between function calls.
 * Only initialized the first time the function is called.
 
+### Global Scope
+* Identifier declared outside any function or class.
+* Visible to all parts of the program after the global indentifier has been declared.
+* Global constants are OK, but don't use global variables.
+
 
 
 
