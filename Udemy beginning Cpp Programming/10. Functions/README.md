@@ -61,6 +61,16 @@ C++ uses static or lexical scoping.
 ## Const in C++ Function Declaration
 The const keyword specifies that a variable's value is constant and tells the compiler to prevent the programmer from modifying it.
 
+## Passing Vector to a C++ Function:
+
+### Pass by Value
+Pass by value keeps the original vector unchanged and doesn't modify the original values of the vector.
+
+### Pass by Reference
+Passing by reference saves a lot of time and makes the implementation of the code faster.
+
+If we do not want a function to modify a vector, we can pass it as a **const** reference also.
+
 
 
 
