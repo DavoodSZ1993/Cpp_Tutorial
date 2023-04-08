@@ -56,6 +56,9 @@ C++ uses static or lexical scoping.
 * Visible to all parts of the program after the global indentifier has been declared.
 * Global constants are OK, but don't use global variables.
 
+## Const in C++ Function Declaration
+The const keyword specifies that a variable's value is constant and tells the compiler to prevent the programmer from modifying it.
+
 
 
 
