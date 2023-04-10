@@ -15,3 +15,8 @@ We declare the pointer variables like variables are declared in C++, except that
 We should initialize pointer variables to point nowhere ( like zero in initializing variables). The pointer variable initialization can be expressed as follows:
 
 `variable_type *variable_name {nullptr}`
+
+## Address Operator(&) in C++
+
+* In C++, variables are stored in unique adresses.
+* Address operator is a unary operator that evaluates to the address of its operand (cannot be constant or expression.)
